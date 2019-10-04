@@ -1,4 +1,5 @@
 import discord
+import os
 
 
 client = discord.Client()
@@ -194,11 +195,12 @@ async def on_message(message):
                                    "\n34. 체스"
                                    "\n35. 초대링크"
                                    "\n"
-                                   "\n심영봇 버전-2.5     업데이트 내용-명령어 추가```"
+                                   "\n심영봇 버전-3.0     업데이트 내용-호스팅 기능 추가(이제 24시간으로 심영봇을 만나보세요)```"
                                    "\n``개발자-보리차, 버그나 추가사항이 있으면 개인 DM(보리차#2300)으로 보내주세요``")
 
 
 
 
 #토큰
-client.run("NjI5MTQyOTcwNjc0ODM5NTgz.XZVeDA.mV3eYcrpN2b3oP7Qv4vfvkCjeQ8")
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
