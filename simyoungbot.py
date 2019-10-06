@@ -148,6 +148,9 @@ async def on_message(message):
                                    "\n♜♞♝♛♚♞♝♜")
     if message.content.startswith("초대링크"):
         await message.channel.send("https://discordapp.com/oauth2/authorize?client_id=629142970674839583&scope=bot")
+    if message.content.startswith("공짜 배그"):
+        await message.channel.send("컴사양도낮고 돈도 없는데 배그가 하고싶다고요? 지금바로시작하세요!"
+                                   "\n http://zombsroyale.io/")
 
 
 
@@ -194,8 +197,9 @@ async def on_message(message):
                                    "\n33. 함께 폭사하자  (사진)"
                                    "\n34. 체스"
                                    "\n35. 초대링크"
+                                   "\n36. 공짜 배그"
                                    "\n"
-                                   "\n심영봇 버전-3.0     업데이트 내용-호스팅 기능 추가(이제 24시간으로 심영봇을 만나보세요)```"
+                                   "\n심영봇 버전-3.1     업데이트 내용-명령어 추가```"
                                    "\n``개발자-보리차, 버그나 추가사항이 있으면 개인 DM(보리차#2300)으로 보내주세요``")
 
 
