@@ -9,7 +9,7 @@ client = discord.Client()
 async def on_ready():
     print(client.user.id)
     print("ready")
-    game = discord.Game("조혜련의 태보 다이어트")
+    game = discord.Game("야인시대 시청")
     await client.change_presence(status=discord.Status.online, activity=game)
 
 
@@ -159,7 +159,7 @@ async def on_message(message):
     if message.content.startswith("you are not simyoung you are Van Darkholme"):
         await message.channel.send("i'm van i'm artist l make a fantasy a DEEP♂ DARK♂ FANTASY♂")
     #도움말
-    if message.content.startswith("!help"):
+    if message.content.startswith("$help"):
         await message.channel.send("```-심영봇 명령어-"
                                    "\n--------------명령어--------------"
                                    "\n1. 정말 위대합니다, 선생!  (사진)"
@@ -199,7 +199,7 @@ async def on_message(message):
                                    "\n35. 초대링크"
                                    "\n36. 공짜 배그"
                                    "\n"
-                                   "\n심영봇 버전-3.1     업데이트 내용-명령어 추가```"
+                                   "\n심영봇 버전-3.1.1     업데이트 내용-명령어 추가```"
                                    "\n``개발자-보리차, 버그나 추가사항이 있으면 개인 DM(보리차#2300)으로 보내주세요``")
 
 
