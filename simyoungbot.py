@@ -153,8 +153,10 @@ async def on_message(message):
                                    "\n http://zombsroyale.io/")
 
 
-
-
+    #할로윈
+    
+        
+        
     #히든
     if message.content.startswith("you are not simyoung you are Van Darkholme"):
         await message.channel.send("i'm van i'm artist l make a fantasy a DEEP♂ DARK♂ FANTASY♂")
