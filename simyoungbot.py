@@ -232,4 +232,4 @@ async def on_message(message):
 
 
 #토큰
-client.run("NjI5MTQyOTcwNjc0ODM5NTgz.XbmK1Q.KSlpushtE_w5fNsq9wfEyC90tNk")
+client.run("NjI5MTQyOTcwNjc0ODM5NTgz.XbmLAQ.V9m_pzAc_2Bzs_62fAcat7wfKqE")
